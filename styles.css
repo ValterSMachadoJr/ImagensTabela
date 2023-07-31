@@ -1,0 +1,33 @@
+body {
+  text-align: center; /* Centraliza o conteúdo do corpo da página */
+}
+
+table.center {
+  margin: 0 auto; /* Centraliza a tabela horizontalmente */
+  width: 980px; /* Define a largura total da tabela */
+  table-layout: fixed; /* Impede que a tabela redimensione automaticamente suas colunas */
+  border-collapse: separate; /* Permite espaçamento entre as células */
+  border-spacing: 40px; /* Define o espaçamento entre as células */
+}
+
+table.center td {
+  width: 200px; /* Define a largura fixa das células da tabela */
+  height: 200px; /* Define a altura fixa das células da tabela */
+  padding: 10px; /* Adiciona espaço interno (padding) para as células */
+  text-align: center; /* Centraliza o conteúdo das células horizontalmente */
+  border: 1px solid black; /* Adiciona uma borda preta de 1 pixel às células da tabela */
+}
+
+table.center img {
+  max-width: 100%; /* Ajusta a largura máxima das imagens para preencher as células */
+  max-height: 100%; /* Ajusta a altura máxima das imagens para preencher as células */
+  border: 1px solid black; /* Adiciona uma borda preta de 1 pixel às imagens */
+}
+
+table.center td:hover {
+  background-color: #f0f0f0; /* Altera a cor do fundo quando o mouse está sobre a célula */
+}
+
+table.center img:hover {
+  border: 1px solid red; /* Altera a cor da borda quando o mouse está sobre a imagem */
+}
